@@ -1,0 +1,4 @@
+class AplicacionMapper:
+    def connect(self):
+        myConn = 
+        

@@ -1,0 +1,10 @@
+INSTUPsystem.mysql.drivers.mysqldb_driver
+D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\drivers\mysqldb_driver.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1
+myConn=4
+execute=7
+mysqldb_driver=1
+cursor=6
+connect=3
+system.mysql.drivers.mysqldb_driver=2
+mysqldb_driver.connect=5

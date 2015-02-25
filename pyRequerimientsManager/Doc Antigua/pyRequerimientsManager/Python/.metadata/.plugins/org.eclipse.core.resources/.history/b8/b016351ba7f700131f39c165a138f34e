@@ -1,0 +1,15 @@
+class Model:
+    def query(self):
+        from application.config import database
+        if database.driver == "MySQLdb":
+            import system.mysql.drivers.mysqldb_driver as mysqldb_driver
+            myDriver = mysqldb_driver.mysqldb_driver.execute("select * from evento")
+            
+            
+            
+        
+        
+        
+        
+            
+        

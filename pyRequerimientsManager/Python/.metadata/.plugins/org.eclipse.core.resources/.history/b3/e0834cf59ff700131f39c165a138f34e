@@ -1,0 +1,3 @@
+import AplicacionMapper
+AppMapper = AplicacionMapper.AplicacionMapper()
+myConn = AppMapper.connect()

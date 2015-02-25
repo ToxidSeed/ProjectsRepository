@@ -1,0 +1,3 @@
+import application.model.AplicacionMapper as AplicacionMapper
+myAplicacionMapper = AplicacionMapper.AplicacionMapper()
+myAplicacionMapper.getEvents()

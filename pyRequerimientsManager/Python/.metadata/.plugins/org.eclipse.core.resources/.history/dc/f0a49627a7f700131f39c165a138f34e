@@ -1,0 +1,6 @@
+class AplicacionMapper:
+    def connect(self):
+        import MySQLdb
+        myConn = MySQLdb.connect(host="127.0.0.1",user="root",passwd="123456",db="requerimentsmanager",port=3306)
+        return myConn
+        

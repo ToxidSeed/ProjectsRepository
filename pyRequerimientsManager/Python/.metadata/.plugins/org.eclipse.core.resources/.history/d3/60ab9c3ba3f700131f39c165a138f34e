@@ -1,0 +1,4 @@
+class Model:
+    def connect(self):
+        import config.database
+        

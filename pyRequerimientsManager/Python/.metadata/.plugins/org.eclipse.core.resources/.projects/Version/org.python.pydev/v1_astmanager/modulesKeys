@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+application.__init__|D:\Proyectos\RequerimientsManager\Python\Version\application\__init__.py
+application.config.__init__|D:\Proyectos\RequerimientsManager\Python\Version\application\config\__init__.py
+application.config.database|D:\Proyectos\RequerimientsManager\Python\Version\application\config\database.py
+application.model.AplicacionMapper|D:\Proyectos\RequerimientsManager\Python\Version\application\model\AplicacionMapper.py
+application.model.TestMapper|D:\Proyectos\RequerimientsManager\Python\Version\application\model\TestMapper.py
+application.model.__init__|D:\Proyectos\RequerimientsManager\Python\Version\application\model\__init__.py
+system.__init__|D:\Proyectos\RequerimientsManager\Python\Version\system\__init__.py
+system.core.__init__|D:\Proyectos\RequerimientsManager\Python\Version\system\core\__init__.py
+system.core.model.__init__|D:\Proyectos\RequerimientsManager\Python\Version\system\core\model\__init__.py
+system.core.model.model|D:\Proyectos\RequerimientsManager\Python\Version\system\core\model\model.py
+system.mysql.__init__|D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\__init__.py
+system.mysql.drivers.__init__|D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\drivers\__init__.py
+system.mysql.drivers.mysqldb_driver|D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\drivers\mysqldb_driver.py

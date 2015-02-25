@@ -1,0 +1,11 @@
+class Model:
+    def connect(self):
+        from application.config import database
+        if database.driver == "MySQLdb":
+            import 
+        
+        
+        
+        
+            
+        

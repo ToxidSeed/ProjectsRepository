@@ -1,0 +1,6 @@
+class Model:
+    def connect(self):
+        import application.config.database
+        
+            
+        

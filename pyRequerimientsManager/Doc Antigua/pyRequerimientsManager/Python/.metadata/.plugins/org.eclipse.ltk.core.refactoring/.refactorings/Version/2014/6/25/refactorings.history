@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Version/System/MySql&apos; to &apos;mysql&apos;" description="Rename resource &apos;MySql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="System/MySql" name="mysql" stamp="1403176006005" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Version/application/Model&apos; to &apos;model&apos;" description="Rename resource &apos;Model&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="application/Model" name="model" stamp="1403176036503" updateReferences="true"/>
+</session>

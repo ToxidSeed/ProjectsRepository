@@ -1,0 +1,52 @@
+-- VERSION_4
+-- START DISKCACHE
+D:\Proyectos\RequerimientsManager\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Version\com.python.pydev.analysis\v2_indexcache
+system.core.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\system\core\__init__.py
+application.config.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\application\config\__init__.py
+application.model.TestMapper|0|D:\Proyectos\RequerimientsManager\Python\Version\application\model\TestMapper.py
+application.config.database|0|D:\Proyectos\RequerimientsManager\Python\Version\application\config\database.py
+system.mysql.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\__init__.py
+application.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\application\__init__.py
+application.model.AplicacionMapper|0|D:\Proyectos\RequerimientsManager\Python\Version\application\model\AplicacionMapper.py
+system.core.model.model|0|D:\Proyectos\RequerimientsManager\Python\Version\system\core\model\model.py
+system.mysql.drivers.mysqldb_driver|0|D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\drivers\mysqldb_driver.py
+application.model.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\application\model\__init__.py
+system.core.model.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\system\core\model\__init__.py
+system.mysql.drivers.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\system\mysql\drivers\__init__.py
+system.__init__|0|D:\Proyectos\RequerimientsManager\Python\Version\system\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+9=model
+6=mysqldb_driver
+4=application.model.TestMapper
+2=application.config.database
+8=AplicacionMapper
+1=application.model.AplicacionMapper
+3=system.core.model.model
+5=system.mysql.drivers.mysqldb_driver
+7=mysqldb_driver.connect
+-- END DICTIONARY
+-- START TREE 1
+11
+apl|1|AplicacionMapper!9@
+db|1|db!19@
+dri|1|driver!19@
+hos|1|host!19@
+mod|1|model!25@
+mya|1|myAplicacionMapper!35@
+mys|1|mysqldb_driver!41@
+pas|1|password!19@
+por|1|port!19@
+res|1|results!35@
+use|1|user!19@
+-- END TREE
+-- START TREE 2
+6
+con|1|connect!6&42@
+cur|1|cursor!7&43@
+exe|1|execute!6&42@
+get|1|getEvents!8&10@
+myc|1|myConn!7&43@
+que|1|query!9&26@
+-- END TREE

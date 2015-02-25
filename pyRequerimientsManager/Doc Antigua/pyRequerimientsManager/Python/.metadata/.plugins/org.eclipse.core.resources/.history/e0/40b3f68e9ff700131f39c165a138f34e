@@ -1,0 +1,5 @@
+class AplicacionMapper:
+    def connect(self):
+        import MySQLdb
+        myConn = MySQLdb.connect(host="")
+        

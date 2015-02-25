@@ -1,0 +1,5 @@
+import system.core.model as model
+class AplicacionMapper(model.model):
+    def getEvents(self):
+        muResults = self.query("select * from events")
+   

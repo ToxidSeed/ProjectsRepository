@@ -1,0 +1,4 @@
+import system.core.model as model
+class AplicacionMapper(model.model):
+    
+   

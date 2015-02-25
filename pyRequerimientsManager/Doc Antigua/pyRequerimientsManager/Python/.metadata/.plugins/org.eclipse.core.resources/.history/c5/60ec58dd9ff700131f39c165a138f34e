@@ -1,0 +1,4 @@
+import AplicacionMapper
+AppMapper = AplicacionMapper.AplicacionMapper()
+AppMapper.setname('Miguel Angel')
+print AppMapper.name

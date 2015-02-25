@@ -1,0 +1,6 @@
+class mysqldb_driver:
+    def connect(self):
+        import MySQLdb
+        from application.config import database
+        myConn = MySQLdb.Connect(host=database.host,user=database.user,passwd=database.password,db=database.db,port=database.port)
+    

@@ -1,0 +1,4 @@
+import AplicacionMapper
+AppMapper = AplicacionMapper()
+AppMapper.setname('Hola')
+print AppMapper.name 

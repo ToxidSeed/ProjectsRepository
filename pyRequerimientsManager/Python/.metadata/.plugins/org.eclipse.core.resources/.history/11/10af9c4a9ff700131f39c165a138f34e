@@ -1,0 +1,3 @@
+class AplicacionMapper:
+    def setname(self,who):
+        

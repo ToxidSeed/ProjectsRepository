@@ -1,0 +1,6 @@
+import AplicacionMapper
+AppMapper = AplicacionMapper.AplicacionMapper()
+myConn = AppMapper.connect()
+myCursor = myConn.cursor()
+myResults = myCursor.execute("select * from evento")
+myConn.close();

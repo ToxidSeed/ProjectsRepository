@@ -1,0 +1,5 @@
+class mysqldb_driver:
+    def connect(self):
+        import MySQLdb
+        myConn = MySQLdb.Connect()
+    
