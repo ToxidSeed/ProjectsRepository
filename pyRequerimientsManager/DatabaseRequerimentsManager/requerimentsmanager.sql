@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 24-06-2015 a las 09:49:08
+-- Tiempo de generación: 07-07-2015 a las 08:49:42
 -- Versión del servidor: 5.1.41
 -- Versión de PHP: 5.3.1
 
@@ -127,20 +127,23 @@ INSERT INTO `controlpropiedad` (`id`, `ControlId`, `PropiedadId`) VALUES
 
 CREATE TABLE IF NOT EXISTS `estado` (
   `id` int(11) NOT NULL,
-  `tipoEstado` int(11) DEFAULT NULL,
+  `tipoEstadoId` int(11) NOT NULL,
   `nombre` varchar(100) DEFAULT NULL,
   `abreviatura` varchar(5) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `FK_Reference_12` (`tipoEstado`)
+  PRIMARY KEY (`id`,`tipoEstadoId`),
+  KEY `FK_Reference_12` (`tipoEstadoId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Volcar la base de datos para la tabla `estado`
 --
 
-INSERT INTO `estado` (`id`, `tipoEstado`, `nombre`, `abreviatura`) VALUES
+INSERT INTO `estado` (`id`, `tipoEstadoId`, `nombre`, `abreviatura`) VALUES
 (0, 1, 'Inactivo', NULL),
-(1, 1, 'Activo', NULL);
+(1, 1, 'Activo', NULL),
+(0, 2, 'Registrado', 'Regis'),
+(1, 2, 'Aprobado', 'Aprob'),
+(2, 2, 'Cancelado', 'Cance');
 
 -- --------------------------------------------------------
 
@@ -221,6 +224,31 @@ CREATE TABLE IF NOT EXISTS `formato` (
 -- Volcar la base de datos para la tabla `formato`
 --
 
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `participante`
+--
+
+CREATE TABLE IF NOT EXISTS `participante` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `proyectoId` int(11) DEFAULT NULL,
+  `sysUsuarioId` int(11) DEFAULT NULL,
+  `flgProyectoDefault` bit(1) DEFAULT NULL COMMENT '1: Valor que Indica si es el proyecto Actual.\r\n            0: Indica que es un proyecto al cual esta asociado\r\n            ',
+  PRIMARY KEY (`id`),
+  KEY `FK_FK_PROYACTDES_PROY` (`proyectoId`),
+  KEY `FK_FK_PROYACTDES_SYSUSR` (`sysUsuarioId`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
+
+--
+-- Volcar la base de datos para la tabla `participante`
+--
+
+INSERT INTO `participante` (`id`, `proyectoId`, `sysUsuarioId`, `flgProyectoDefault`) VALUES
+(19, 9, 1, b'0'),
+(18, 8, 1, b'0'),
+(20, 11, 1, b'0');
 
 -- --------------------------------------------------------
 
@@ -834,7 +862,7 @@ CREATE TABLE IF NOT EXISTS `procesoflujo` (
   `EstadoProcesoFlujoId` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_Reference_23` (`procesoId`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=340 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=341 ;
 
 --
 -- Volcar la base de datos para la tabla `procesoflujo`
@@ -1178,7 +1206,8 @@ INSERT INTO `procesoflujo` (`id`, `procesoId`, `nombre`, `descripcion`, `fechaRe
 (336, 1, 's1', 's1', NULL, -1),
 (337, 1, 's', 's', NULL, -1),
 (338, 1, 's', 's', NULL, 0),
-(339, 3, 'Registrar Usuario', 'sdsdsdads', NULL, 0);
+(339, 3, 'Registrar Usuario', 'sdsdsdads', NULL, 0),
+(340, 0, 'XX', 'XX', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -1291,14 +1320,22 @@ CREATE TABLE IF NOT EXISTS `proyecto` (
   `estadoid` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_PROYECTO_APLICACION` (`aplicacionId`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
 
 --
 -- Volcar la base de datos para la tabla `proyecto`
 --
 
 INSERT INTO `proyecto` (`id`, `nombre`, `descripcion`, `aplicacionId`, `fechaRegistro`, `fechaModificacion`, `estadoid`) VALUES
-(4, 'Implementacion del Sistema JARVIX', 'Implementacion del Sistema JARVIX.', 5, '2015-05-10 02:36:34', '2015-05-10 02:36:34', 1);
+(4, 'Implementacion del Sistema JARVIX', 'Implementacion del Sistema JARVIX.', 5, '2015-05-10 02:36:34', '2015-05-10 02:36:34', 1),
+(5, 'dsfds', 'fsdfsdf', 1, '2015-07-01 02:01:19', '2015-07-01 02:01:19', 1),
+(6, 's', 's', 1, '2015-07-01 07:38:42', '2015-07-01 07:38:42', 1),
+(7, 'dsad', 'dsad', 3, '2015-07-01 23:31:07', '2015-07-01 23:31:07', 1),
+(8, 'sss', 'dsadas', 1, '2015-07-04 14:54:48', '2015-07-04 14:54:48', 1),
+(9, 'ss', 'sss', 5, '2015-07-05 15:16:22', '2015-07-05 15:16:22', 1),
+(10, 'dsds', 'dsds', 1, '2015-07-06 18:40:40', '2015-07-06 18:40:40', 1),
+(11, 'ad', 'dsadasd', 1, '2015-07-06 19:21:13', '2015-07-06 19:21:13', 1),
+(12, 'sss', 'ss', 3, '2015-07-06 22:23:54', '2015-07-06 22:23:54', 1);
 
 -- --------------------------------------------------------
 
@@ -1362,12 +1399,15 @@ CREATE TABLE IF NOT EXISTS `requerimientofuncional` (
   `orden` int(11) DEFAULT NULL COMMENT '1. Campo que sirve para enumerar los requerimientos funcionales, por proyecto inicializa en 1',
   PRIMARY KEY (`id`),
   KEY `FK_REQFUNC_PROY` (`proyectoId`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Volcar la base de datos para la tabla `requerimientofuncional`
 --
 
+INSERT INTO `requerimientofuncional` (`id`, `codigo`, `nombre`, `fechaRegistro`, `fechaModificacion`, `descripcion`, `proyectoId`, `estadoId`, `orden`) VALUES
+(1, '', 'Mapeo de UF_SERVICES', '2015-07-02 01:29:27', '2015-07-02 01:29:27', '', 3, 1, 1),
+(2, '', 'DD', '2015-07-02 01:29:42', '2015-07-02 01:29:42', 'DD', 3, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -1485,6 +1525,7 @@ CREATE TABLE IF NOT EXISTS `sysusuario` (
   `fechaActualizacion` date DEFAULT NULL,
   `email` varchar(40) DEFAULT NULL,
   `passusr` varchar(255) DEFAULT NULL,
+  `estadoid` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
@@ -1492,8 +1533,8 @@ CREATE TABLE IF NOT EXISTS `sysusuario` (
 -- Volcar la base de datos para la tabla `sysusuario`
 --
 
-INSERT INTO `sysusuario` (`id`, `nombre`, `fechaRegistro`, `fechaActualizacion`, `email`, `passusr`) VALUES
-(1, 'Miguel Angel', '2014-04-27', '2014-04-27', 'maccgeo@hotmail.com', 'e37e520c9caa8cac5714ed1761894437a05ba4c9');
+INSERT INTO `sysusuario` (`id`, `nombre`, `fechaRegistro`, `fechaActualizacion`, `email`, `passusr`, `estadoid`) VALUES
+(1, 'Miguel Angel', '2014-04-27', '2014-04-27', 'maccgeo@hotmail.com', 'e37e520c9caa8cac5714ed1761894437a05ba4c9', 1);
 
 -- --------------------------------------------------------
 
@@ -1534,7 +1575,8 @@ CREATE TABLE IF NOT EXISTS `tipoestado` (
 --
 
 INSERT INTO `tipoestado` (`id`, `nombre`) VALUES
-(1, 'Estados Generales de Mantenimientos');
+(1, 'Estados de Usuario'),
+(2, 'Estados de Proyecto');
 
 -- --------------------------------------------------------
 
