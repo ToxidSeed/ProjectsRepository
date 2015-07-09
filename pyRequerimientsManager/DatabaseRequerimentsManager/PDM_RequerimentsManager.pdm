@@ -2682,7 +2682,7 @@ Shadow=0</a:DisplayPreferences>
 <a:CreationDate>1392608957</a:CreationDate>
 <a:ModificationDate>1435021656</a:ModificationDate>
 <a:CenterTextOffset>(1575, -1725)</a:CenterTextOffset>
-<a:Rect>((13670,33853), (24020,45587))</a:Rect>
+<a:Rect>((14373,33853), (20167,45587))</a:Rect>
 <a:ListOfPoints>((14373,45587),(14373,38682),(20167,38682),(20167,33853))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2724,7 +2724,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o13">
 <a:CreationDate>1392609707</a:CreationDate>
 <a:ModificationDate>1426213583</a:ModificationDate>
-<a:Rect>((-91612,-32979), (-48472,-22462))</a:Rect>
+<a:Rect>((-91612,-32979), (-53572,-22462))</a:Rect>
 <a:ListOfPoints>((-62201,-22462),(-53572,-22462),(-53572,-32979),(-91612,-32979))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2766,7 +2766,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o19">
 <a:CreationDate>1392609800</a:CreationDate>
 <a:ModificationDate>1418008152</a:ModificationDate>
-<a:Rect>((-63745,-14945), (-53395,-4962))</a:Rect>
+<a:Rect>((-62670,-14945), (-54471,-4962))</a:Rect>
 <a:ListOfPoints>((-62670,-14945),(-62670,-10646),(-54471,-10646),(-54471,-4962))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2808,7 +2808,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o26">
 <a:CreationDate>1392609890</a:CreationDate>
 <a:ModificationDate>1415363461</a:ModificationDate>
-<a:Rect>((-62479,6423), (-52129,49879))</a:Rect>
+<a:Rect>((-57804,6423), (-56804,49879))</a:Rect>
 <a:ListOfPoints>((-57304,6423),(-57304,49879))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2870,9 +2870,9 @@ CARD 0 Arial,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o35">
 <a:CreationDate>1392611194</a:CreationDate>
-<a:ModificationDate>1435700140</a:ModificationDate>
-<a:Rect>((12941,-3298), (23664,13426))</a:Rect>
-<a:ListOfPoints>((23664,13426),(23664,6660),(12941,6660),(12941,-3298))</a:ListOfPoints>
+<a:ModificationDate>1436417134</a:ModificationDate>
+<a:Rect>((3566,-3973), (23664,13426))</a:Rect>
+<a:ListOfPoints>((23664,13426),(23664,6660),(3566,6660),(3566,-3973))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -2913,7 +2913,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o42">
 <a:CreationDate>1393988803</a:CreationDate>
 <a:ModificationDate>1435021656</a:ModificationDate>
-<a:Rect>((9264,45638), (32559,53018))</a:Rect>
+<a:Rect>((9264,45638), (26184,52431))</a:Rect>
 <a:ListOfPoints>((12564,45638),(12564,52431),(26184,52431),(26184,46013),(9264,46013))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -2997,7 +2997,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o52">
 <a:CreationDate>1398226398</a:CreationDate>
 <a:ModificationDate>1435021649</a:ModificationDate>
-<a:Rect>((-12786,55916), (15708,69553))</a:Rect>
+<a:Rect>((-6599,55916), (15708,68966))</a:Rect>
 <a:ListOfPoints>((-6599,55916),(-6599,68966),(15708,68966))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3018,7 +3018,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o55">
 <a:CreationDate>1403844813</a:CreationDate>
 <a:ModificationDate>1436225545</a:ModificationDate>
-<a:Rect>((-63183,48454), (-46451,71010))</a:Rect>
+<a:Rect>((-58271,48454), (-46451,70423))</a:Rect>
 <a:ListOfPoints>((-58271,48454),(-58271,70423),(-46451,70423))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3081,7 +3081,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o63">
 <a:CreationDate>1407949770</a:CreationDate>
 <a:ModificationDate>1410710062</a:ModificationDate>
-<a:Rect>((-97318,26620), (-71555,42732))</a:Rect>
+<a:Rect>((-93793,27207), (-71555,42732))</a:Rect>
 <a:ListOfPoints>((-93793,42732),(-93793,27207),(-71555,27207))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3186,7 +3186,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o76">
 <a:CreationDate>1414296390</a:CreationDate>
 <a:ModificationDate>1418008156</a:ModificationDate>
-<a:Rect>((-82239,-9608), (-53868,6343))</a:Rect>
+<a:Rect>((-82239,-8313), (-57393,6343))</a:Rect>
 <a:ListOfPoints>((-82239,-8313),(-57393,-8313),(-57393,6343))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3207,7 +3207,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o79">
 <a:CreationDate>1414298590</a:CreationDate>
 <a:ModificationDate>1418008156</a:ModificationDate>
-<a:Rect>((-91836,-16226), (-64836,-9002))</a:Rect>
+<a:Rect>((-88311,-15640), (-64836,-9002))</a:Rect>
 <a:ListOfPoints>((-88311,-9002),(-88311,-15640),(-64836,-15640))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3228,7 +3228,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o81">
 <a:CreationDate>1414300937</a:CreationDate>
 <a:ModificationDate>1414300937</a:ModificationDate>
-<a:Rect>((-87141,-23839), (-63805,-19114))</a:Rect>
+<a:Rect>((-83616,-23839), (-63805,-19114))</a:Rect>
 <a:ListOfPoints>((-83616,-19114),(-83616,-23839),(-63805,-23839))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3249,7 +3249,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o84">
 <a:CreationDate>1414300955</a:CreationDate>
 <a:ModificationDate>1415363461</a:ModificationDate>
-<a:Rect>((-82606,-19776), (-59429,8951))</a:Rect>
+<a:Rect>((-79081,-19776), (-59429,8364))</a:Rect>
 <a:ListOfPoints>((-79081,-19776),(-79081,8364),(-59429,8364))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3270,7 +3270,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o86">
 <a:CreationDate>1418008161</a:CreationDate>
 <a:ModificationDate>1418008161</a:ModificationDate>
-<a:Rect>((-89484,-9383), (-61650,-5108))</a:Rect>
+<a:Rect>((-85959,-9383), (-61650,-5108))</a:Rect>
 <a:ListOfPoints>((-85959,-9383),(-85959,-5108),(-61650,-5108))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3333,7 +3333,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o94">
 <a:CreationDate>1435021500</a:CreationDate>
 <a:ModificationDate>1435021656</a:ModificationDate>
-<a:Rect>((11587,46121), (53488,53817))</a:Rect>
+<a:Rect>((15112,46121), (53488,52521))</a:Rect>
 <a:ListOfPoints>((53488,52521),(15112,52521),(15112,46121))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3375,7 +3375,7 @@ CARD 0 Arial,8,N</a:FontList>
 <o:ReferenceSymbol Id="o99">
 <a:CreationDate>1435021618</a:CreationDate>
 <a:ModificationDate>1435021646</a:ModificationDate>
-<a:Rect>((16537,68293), (31337,70571))</a:Rect>
+<a:Rect>((16537,68608), (31337,70571))</a:Rect>
 <a:ListOfPoints>((31337,68608),(25944,68608),(25944,70571),(16537,70571))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
@@ -3721,8 +3721,8 @@ TableComment 0 Arial,8,N</a:FontList>
 </o:TableSymbol>
 <o:TableSymbol Id="o37">
 <a:CreationDate>1392611102</a:CreationDate>
-<a:ModificationDate>1435700140</a:ModificationDate>
-<a:Rect>((7640,-4623), (18248,-624))</a:Rect>
+<a:ModificationDate>1436417134</a:ModificationDate>
+<a:Rect>((-1735,-5298), (8873,-1299))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16570034</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -5385,7 +5385,7 @@ TableComment 0 Arial,8,N</a:FontList>
 <a:Code>id</a:Code>
 <a:CreationDate>1392611155</a:CreationDate>
 <a:Creator>MIGUEL ANGEL</a:Creator>
-<a:ModificationDate>1435818030</a:ModificationDate>
+<a:ModificationDate>1436417164</a:ModificationDate>
 <a:Modifier>usuario</a:Modifier>
 <a:Comment>Estados de Usuario
 
@@ -5398,7 +5398,9 @@ Estados de Proyecto
 1: Aprobado: Cuando el proyecto esta listo para ser desarrollado
 2: Cancelado: Cuando se cancela el proyecto
 
-</a:Comment>
+Estados de Requerimiento
+
+0: Registrado: Cuando se registra un nuevo requerimiento</a:Comment>
 <a:DataType>int</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
@@ -5408,10 +5410,11 @@ Estados de Proyecto
 <a:Code>tipoEstadoId</a:Code>
 <a:CreationDate>1392611188</a:CreationDate>
 <a:Creator>MIGUEL ANGEL</a:Creator>
-<a:ModificationDate>1435793146</a:ModificationDate>
-<a:Modifier>mquispec</a:Modifier>
+<a:ModificationDate>1436417313</a:ModificationDate>
+<a:Modifier>usuario</a:Modifier>
 <a:Comment>1: Estado de Usuarios
-</a:Comment>
+2: Estado de Proyecto
+3: Estado de Requerimiento</a:Comment>
 <a:DataType>int</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
