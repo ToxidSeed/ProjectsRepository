@@ -2975,9 +2975,9 @@ CARD 0 Arial,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o49">
 <a:CreationDate>1398226387</a:CreationDate>
-<a:ModificationDate>1436225545</a:ModificationDate>
-<a:Rect>((-42283,55403), (-11320,70659))</a:Rect>
-<a:ListOfPoints>((-11320,55403),(-25208,55403),(-25208,70659),(-42283,70659))</a:ListOfPoints>
+<a:ModificationDate>1436503128</a:ModificationDate>
+<a:Rect>((-42283,70831), (-17095,71281))</a:Rect>
+<a:ListOfPoints>((-17095,71056),(-42283,71056))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -2996,9 +2996,9 @@ CARD 0 Arial,8,N</a:FontList>
 </o:ReferenceSymbol>
 <o:ReferenceSymbol Id="o52">
 <a:CreationDate>1398226398</a:CreationDate>
-<a:ModificationDate>1435021649</a:ModificationDate>
-<a:Rect>((-6599,55916), (15708,68966))</a:Rect>
-<a:ListOfPoints>((-6599,55916),(-6599,68966),(15708,68966))</a:ListOfPoints>
+<a:ModificationDate>1436503128</a:ModificationDate>
+<a:Rect>((-12374,68966), (15708,71966))</a:Rect>
+<a:ListOfPoints>((-12374,71966),(-3715,71966),(-3715,68966),(15708,68966))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615680</a:LineColor>
@@ -3815,8 +3815,8 @@ TableComment 0 Arial,8,N</a:FontList>
 </o:TableSymbol>
 <o:TableSymbol Id="o50">
 <a:CreationDate>1398226095</a:CreationDate>
-<a:ModificationDate>1435021649</a:ModificationDate>
-<a:Rect>((-16579,52585), (-5353,58403))</a:Rect>
+<a:ModificationDate>1436503128</a:ModificationDate>
+<a:Rect>((-22354,68635), (-11128,74453))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16570034</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -5323,11 +5323,12 @@ TableComment 0 Arial,8,N</a:FontList>
 <a:Code>TipoEstado</a:Code>
 <a:CreationDate>1392611102</a:CreationDate>
 <a:Creator>MIGUEL ANGEL</a:Creator>
-<a:ModificationDate>1435817389</a:ModificationDate>
+<a:ModificationDate>1436740389</a:ModificationDate>
 <a:Modifier>usuario</a:Modifier>
 <a:Comment>1: Estados de Usuario
 2: Estados de Proyecto
-</a:Comment>
+3: Estados de Requerimiento
+4: Estados de Proceso</a:Comment>
 <c:Columns>
 <o:Column Id="o225">
 <a:ObjectID>DF88AA26-A455-4F66-80EF-C66ECEC5A532</a:ObjectID>
@@ -5385,7 +5386,7 @@ TableComment 0 Arial,8,N</a:FontList>
 <a:Code>id</a:Code>
 <a:CreationDate>1392611155</a:CreationDate>
 <a:Creator>MIGUEL ANGEL</a:Creator>
-<a:ModificationDate>1436417164</a:ModificationDate>
+<a:ModificationDate>1436740417</a:ModificationDate>
 <a:Modifier>usuario</a:Modifier>
 <a:Comment>Estados de Usuario
 
@@ -5400,7 +5401,11 @@ Estados de Proyecto
 
 Estados de Requerimiento
 
-0: Registrado: Cuando se registra un nuevo requerimiento</a:Comment>
+0: Registrado: Cuando se registra un nuevo requerimiento
+
+Estados de Procesos (Toma de Requerimientos)
+
+0: Registrado</a:Comment>
 <a:DataType>int</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
